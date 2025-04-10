@@ -1,5 +1,3 @@
-
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:zentro/audioplayer.dart';
 import 'package:zentro/form.dart';
@@ -46,9 +44,9 @@ class _BottomNavigationState extends State<BottomNavigation> {
         ],
       ),
       body: <Widget>[
-         HomeScreen(),
-         FormScreen(),
-         AudioScreen(),
+         const HomeScreen(),
+         const FormScreen(),
+         const AudioScreen(),
       ][currentPageIndex],
     );
   }

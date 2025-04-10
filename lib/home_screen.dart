@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:zentro/details_screen.dart';
-import 'package:zentro/fdsa.dart';
+import 'package:zentro/product_bloc.dart';
 import 'package:zentro/product_management.dart';
 import 'package:zentro/product_state.dart';
 import 'package:zentro/service.dart';
@@ -123,12 +123,12 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               // Categories
-              Padding(
+              const Padding(
                 padding:
-                    const EdgeInsets.symmetric(horizontal: 16.0, vertical: 10),
+                    EdgeInsets.symmetric(horizontal: 16.0, vertical: 10),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                     Text("Shop By Category",
                         style: TextStyle(
                             fontSize: 18, fontWeight: FontWeight.bold)),
@@ -143,39 +143,39 @@ class _HomeScreenState extends State<HomeScreen> {
                   children: [
                     categoryItem("Women",
                         "https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dwa753dec4/images/hires/SS22/S25V275DRPYD_blue_prt%20(2)%20copy.jpg?sw=400&sh=600&sm=fit&strip=false"),
-                    SizedBox(
+                    const SizedBox(
                       width: 10,
                     ),
                     categoryItem("Men",
                         "https://surhi.in/cdn/shop/collections/Mens_Wear.webp?v=1721029303"),
-                    SizedBox(
+                    const SizedBox(
                       width: 10,
                     ),
                     categoryItem("Teens",
                         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZY9P-oikrNp3PePZCqQLnDywJlmz1jSPu_g&s"),
-                    SizedBox(
+                    const SizedBox(
                       width: 10,
                     ),
                     categoryItem("Kids",
                         "https://peekaabookids.com/cdn/shop/files/0Z4A4373.png?v=1739291633&width=533"),
-                    SizedBox(
+                    const SizedBox(
                       width: 10,
                     ),
                     categoryItem("Baby",
                         "https://cdn.shopify.com/s/files/1/0004/0245/6582/files/baby_mobile_hero.jpg"),
-                    SizedBox(
+                    const SizedBox(
                       width: 10,
                     ),
                   ],
                 ),
               ),
               // Products Grid
-              Padding(
+              const Padding(
                 padding:
-                    const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8),
+                    EdgeInsets.symmetric(horizontal: 16.0, vertical: 8),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                     Text("Suggested for You",
                         style: TextStyle(
                             fontSize: 18, fontWeight: FontWeight.bold)),

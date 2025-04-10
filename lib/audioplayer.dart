@@ -40,7 +40,7 @@ class _AudioScreenState extends State<AudioScreen> {
         backgroundColor: Colors.white,
         title: const Text(
           'Audio Player',
-          style: TextStyle(color: Colors.black),
+          style: TextStyle(color: Colors.black,fontWeight: FontWeight.w500),
         ),
         centerTitle: true,
       ),

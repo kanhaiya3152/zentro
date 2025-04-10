@@ -1,4 +1,3 @@
-// src/bloc/product/product_state.dart
 import 'package:equatable/equatable.dart';
 import 'package:zentro/product_model.dart';
 
