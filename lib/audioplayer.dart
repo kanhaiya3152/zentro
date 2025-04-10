@@ -30,7 +30,7 @@ class _AudioScreenState extends State<AudioScreen> {
         _player.positionStream,
         _player.durationStream.map((duration) => duration ?? Duration.zero),
         (position, duration) => DurationState(position, duration),
-      );
+  );
 
   @override
   Widget build(BuildContext context) {

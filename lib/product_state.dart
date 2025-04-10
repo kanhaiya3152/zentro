@@ -15,6 +15,7 @@ class ProductLoaded extends ProductState {
   @override
   List<Object> get props => [products];
 }
+
 class ProductError extends ProductState {
   final String message;
   ProductError(this.message);

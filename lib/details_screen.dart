@@ -38,7 +38,6 @@ class DetailScreen extends StatelessWidget {
                 ],
               ),
             ),
-
             Padding(
               padding: EdgeInsets.all(screenWidth * 0.04), 
               child: Column(
@@ -59,7 +58,6 @@ class DetailScreen extends StatelessWidget {
                       color: Colors.grey[800],
                     ),
                   ),
-
                   SizedBox(height: screenWidth * 0.03), 
                   Row(
                     children: [

@@ -31,13 +31,13 @@ class _BottomNavigationState extends State<BottomNavigation> {
             label: 'Home',
           ),
           NavigationDestination(
-            selectedIcon: Icon(Icons.audio_file),
-            icon: Icon(Icons.audio_file_outlined),
+            selectedIcon: Icon(Icons.summarize_sharp),
+            icon: Icon(Icons.summarize_outlined),
             label: 'Form',
           ),
           NavigationDestination(
-            selectedIcon: Icon(Icons.summarize_sharp),
-            icon: Icon(Icons.summarize_outlined),
+            selectedIcon: Icon(Icons.audio_file),
+            icon: Icon(Icons.audio_file_outlined),
             label: 'Music',
           ),
         ],

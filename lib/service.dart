@@ -4,7 +4,7 @@ import 'package:zentro/product_model.dart';
 
 class ProductRepository {
   final String _baseUrl = 'https://fakestoreapi.com/products';
-
+  
   Future<List<Product>> fetchProducts() async {
     final response = await http.get(Uri.parse(_baseUrl));
 

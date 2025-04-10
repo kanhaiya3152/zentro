@@ -204,7 +204,6 @@ class _FormScreenState extends State<FormScreen> {
                         content: Text('Form submitted successfully!'),
                       ),
                     );
-
                     setState(() {
                       _nameController.clear();
                       _emailController.clear();

@@ -14,8 +14,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  String searchQuery = ""; 
-  int currentBannerIndex = 0; 
+  String searchQuery = "";
+  int currentBannerIndex = 0;
 
   final List<String> bannerImages = [
     'assets/header3.png',
@@ -76,8 +76,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   onChanged: (value) {
                     setState(() {
-                      searchQuery =
-                          value.toLowerCase();
+                      searchQuery = value.toLowerCase();
                     });
                   },
                 ),
@@ -123,14 +122,15 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               const Padding(
-                padding:
-                    EdgeInsets.symmetric(horizontal: 16.0, vertical: 10),
+                padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 10),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text("Shop By Category",
-                        style: TextStyle(
-                            fontSize: 18, fontWeight: FontWeight.bold)),
+                    Text(
+                      "Shop By Category",
+                      style:
+                          TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    ),
                   ],
                 ),
               ),
@@ -169,14 +169,15 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               const Padding(
-                padding:
-                    EdgeInsets.symmetric(horizontal: 16.0, vertical: 8),
+                padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text("Suggested for You",
-                        style: TextStyle(
-                            fontSize: 18, fontWeight: FontWeight.bold)),
+                    Text(
+                      "Suggested for You",
+                      style:
+                          TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    ),
                   ],
                 ),
               ),
@@ -215,8 +216,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             },
                             child: Card(
                               elevation: 6,
-                              color: Colors
-                                  .grey[100], 
+                              color: Colors.grey[100],
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(12),
                               ),
