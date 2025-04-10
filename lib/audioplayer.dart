@@ -49,7 +49,6 @@ class _AudioScreenState extends State<AudioScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Album Art
             Container(
               height: 200,
               width: 200,
@@ -69,7 +68,6 @@ class _AudioScreenState extends State<AudioScreen> {
               ),
             ),
             const SizedBox(height: 20),
-            // Song Title
             const Text(
               "Sample Song",
               style: TextStyle(
@@ -79,7 +77,6 @@ class _AudioScreenState extends State<AudioScreen> {
               ),
             ),
             const SizedBox(height: 10),
-            // Artist Name
             const Text(
               "Artist Name",
               style: TextStyle(
@@ -88,7 +85,6 @@ class _AudioScreenState extends State<AudioScreen> {
               ),
             ),
             const SizedBox(height: 30),
-            // Slider and Duration
             StreamBuilder<DurationState>(
               stream: _durationState,
               builder: (context, snapshot) {

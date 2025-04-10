@@ -14,7 +14,6 @@ class _BottomNavigationState extends State<BottomNavigation> {
   int currentPageIndex = 0;
   @override
   Widget build(BuildContext context) {
-    // final ThemeData theme = Theme.of(context);
     return Scaffold(
       bottomNavigationBar: NavigationBar(
         backgroundColor:  Colors.white,

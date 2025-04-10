@@ -14,8 +14,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  String searchQuery = ""; // To store the search query
-  int currentBannerIndex = 0; // To track the current banner index
+  String searchQuery = ""; 
+  int currentBannerIndex = 0; 
 
   final List<String> bannerImages = [
     'assets/header3.png',
@@ -36,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
               colors: [
                 Color.fromARGB(255, 54, 81, 69),
                 Color.fromARGB(255, 112, 128, 122)
-              ], // Gradient colors
+              ],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ).createShader(bounds),
@@ -122,7 +122,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   ],
                 ),
               ),
-              // Categories
               const Padding(
                 padding:
                     EdgeInsets.symmetric(horizontal: 16.0, vertical: 10),
@@ -169,7 +168,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   ],
                 ),
               ),
-              // Products Grid
               const Padding(
                 padding:
                     EdgeInsets.symmetric(horizontal: 16.0, vertical: 8),

@@ -4,7 +4,7 @@ class Product {
   final String description;
   final String image;
   final double price;
-  final Rating rating; // Added Rating field
+  final Rating rating; 
 
   Product({
     required this.id,
@@ -12,7 +12,7 @@ class Product {
     required this.description,
     required this.image,
     required this.price,
-    required this.rating, // Added Rating field
+    required this.rating, 
   });
 
   factory Product.fromJson(Map<String, dynamic> json) {
@@ -22,7 +22,7 @@ class Product {
       description: json['description'] ?? "No description available",
       image: json['image'] ?? 'https://via.placeholder.com/150',
       price: (json['price'] as num).toDouble(),
-      rating: Rating.fromJson(json['rating'] ?? {}), // Parse Rating object
+      rating: Rating.fromJson(json['rating'] ?? {}),
     );
   }
 }

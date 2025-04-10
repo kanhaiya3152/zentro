@@ -74,7 +74,6 @@ class DetailScreen extends StatelessWidget {
                           fontSize: screenWidth * 0.04, 
                         ),
                       ),
-                      // const Spacer(),
                     ],
                   ),
                   SizedBox(height: screenWidth * 0.03), 

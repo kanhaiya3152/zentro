@@ -1,4 +1,3 @@
-// src/presentation/home/widgets/product_tile.dart
 import 'package:flutter/material.dart';
 import 'package:zentro/details_screen.dart';
 import 'package:zentro/product_model.dart';
